@@ -1,0 +1,21 @@
+1.shapes related to the size of the dimensions of an N-dimensions array.size regarding arrays,relates to the amount of elements that are contained in the array (or sometimes at the top dimensions of the array when used as lenghth)
+example:let be a matrix 
+1 2 3 4
+5 6 7 8
+9 10 11 12 
+the shape of a is (3,4),the size of a is 12 and the size of a[1]is 4 
+2.The term broadcasting describes how numpy treats arrays with differnt shapes during arithematic oprations.Subject to certain constraints,the smaller arrays is "broadcast" across the larger array so that they have compatible shapes
+example:>>>a=np.array([1.0,2.0,3.0])
+        >>>b=np.array([2.0,2.0,2.0])
+        >>>a*b
+       array([2.,4.,6.])
+3.1 scipy(scientific numeric libery)
+  2 pandas(data analytics libery)
+  3.ipython (command shell)
+  4 numeric python (fundamental numeric package)
+  5 natural language toolkit (library for mathematical and text analysis)
+4.The ndarray objects can be saved to and loaded from diskfiles 
+  Numpy intoroduces a simple format for ndarray objects 
+  load() and save() functions handle /numpy binaryfiles (with npy extension)
+5.The numpy module in python provides a function doesn't numpy.empty(). this function is used to create an array without initializing the entries of the given shapes and type 
+  syntax:numpy.empty(shape,dtype=float, order='c')
